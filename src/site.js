@@ -1,18 +1,21 @@
 export const loadSite = (() => {
-  const container = document.getElementById("container");
+  const content = document.getElementById("content");
   const header = document.createElement("div");
   header.classList.add("header");
-  container.appendChild(header);
+  content.appendChild(header);
   const navbar = document.createElement("div");
   navbar.classList.add("navbar");
   header.appendChild(navbar);
   const home = document.createElement("button");
   home.classList.add("home");
+  home.textContent = "Home";
   navbar.appendChild(home);
   const menu = document.createElement("button");
   menu.classList.add("menu");
+  menu.textContent = "Menu";
   navbar.appendChild(menu);
   const contact = document.createElement("button");
   contact.classList.add("contact");
+  contact.textContent = "Contact";
   navbar.appendChild(contact);
 })();
