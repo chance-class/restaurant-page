@@ -1,3 +1,3 @@
-const loadHome = (() => {
+export const loadHome = () => {
 
-})();
+};

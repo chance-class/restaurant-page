@@ -1,3 +1,3 @@
-const loadMenu = (() => {
+export const loadMenu = () => {
 
-})();
+}
