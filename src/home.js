@@ -6,4 +6,12 @@ export const loadHome = () => {
   const main = document.createElement("div");
   main.classList.add("main");
   container.appendChild(main);
+  const blurb = document.createElement("div");
+  blurb.classList.add("blurb");
+  blurb.textContent = "First-rate food, drink, and living quarters for the travelling witch or wizard, or simply those heading to Diagon Alley";
+  main.appendChild(blurb);
+  const learn = document.createElement("button");
+  learn.classList.add("learn");
+  learn.textContent = "Learn More";
+  main.appendChild(learn);
 };
