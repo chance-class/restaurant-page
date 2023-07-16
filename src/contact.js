@@ -6,4 +6,7 @@ export const loadContact = () => {
   const main = document.createElement("div");
   main.classList.add("main");
   container.appendChild(main);
+  const header = document.createElement("h2");
+  header.textContent = "Contact";
+  main.appendChild(header);
 };
