@@ -24,12 +24,13 @@ menu.addEventListener("click", () => {
   loadMenu();
 })
 
+const learn = document.querySelector(".learn");
+learn.addEventListener("click", () => {
+  loadAbout();
+})
+
 const about = document.querySelector(".about");
 about.addEventListener("click", () => {
   loadAbout();
 })
 
-const learn = document.querySelector(".learn");
-learn.addEventListener("click", () => {
-  loadAbout();
-})

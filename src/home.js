@@ -1,3 +1,5 @@
+import { loadAbout } from "./about.js";
+
 export const loadHome = () => {
   const container = document.querySelector(".container");
   while (container.lastElementChild) {
@@ -13,5 +15,8 @@ export const loadHome = () => {
   const learn = document.createElement("button");
   learn.classList.add("learn");
   learn.textContent = "Learn More";
+  learn.addEventListener("click", () => {
+    loadAbout();
+  })
   main.appendChild(learn);
 };
