@@ -8,7 +8,7 @@ export const loadDishes = () => {
     const main = document.createElement("div");
     main.classList.add("main");
     container.appendChild(main);
-    const header = document.createElement("h3");
+    const header = document.createElement("h2");
     header.textContent = "Signature Dishes";
     main.appendChild(header);
 
@@ -17,7 +17,7 @@ export const loadDishes = () => {
     card1.classList.add("card");
     info1.classList.add("info");
     card1.appendChild(info1);
-    const head1 = document.createElement("h4");
+    const head1 = document.createElement("h3");
     head1.textContent = "Bangers and Mash";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
@@ -30,7 +30,7 @@ export const loadDishes = () => {
     card2.classList.add("card");
     info2.classList.add("info");
     card2.appendChild(info2);
-    const head2 = document.createElement("h4");
+    const head2 = document.createElement("h3");
     head2.textContent = "Steak and Kidney Pie";
     info2.appendChild(head2);
     const blurb2 = document.createElement("p");
@@ -43,7 +43,7 @@ export const loadDishes = () => {
     card3.classList.add("card");
     info3.classList.add("info");
     card3.appendChild(info3);
-    const head3 = document.createElement("h4");
+    const head3 = document.createElement("h3");
     head3.textContent = "Pea Soup";
     info3.appendChild(head3);
     const blurb3 = document.createElement("p");
@@ -56,7 +56,7 @@ export const loadDishes = () => {
     card4.classList.add("card");
     info4.classList.add("info");
     card4.appendChild(info4);
-    const head4 = document.createElement("h4");
+    const head4 = document.createElement("h3");
     head4.textContent = "Yorkshire Pudding";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
@@ -69,7 +69,7 @@ export const loadDishes = () => {
     card5.classList.add("card");
     info5.classList.add("info");
     card5.appendChild(info5);
-    const head5 = document.createElement("h4");
+    const head5 = document.createElement("h3");
     head5.textContent = "Shepherds Pie";
     info5.appendChild(head5);
     const blurb5 = document.createElement("p");
@@ -82,7 +82,7 @@ export const loadDishes = () => {
     card6.classList.add("card");
     info6.classList.add("info");
     card6.appendChild(info6);
-    const head6 = document.createElement("h4");
+    const head6 = document.createElement("h3");
     head6.textContent = "Toad in the Hole";
     info6.appendChild(head6);
     const blurb6 = document.createElement("p");

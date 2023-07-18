@@ -6,7 +6,7 @@ export const loadAbout = () => {
     const main = document.createElement("div");
     main.classList.add("main");
     container.appendChild(main);
-    const header = document.createElement("h2");
+    const header = document.createElement("h1");
     header.textContent = "About";
     main.appendChild(header);
     const info = document.createElement("div");

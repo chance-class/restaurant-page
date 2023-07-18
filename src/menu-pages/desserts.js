@@ -8,7 +8,7 @@ export const loadDesserts = () => {
     const main = document.createElement("div");
     main.classList.add("main");
     container.appendChild(main);
-    const header = document.createElement("h3");
+    const header = document.createElement("h2");
     header.textContent = "Desserts";
     main.appendChild(header);
 
@@ -17,7 +17,7 @@ export const loadDesserts = () => {
     card1.classList.add("card");
     info1.classList.add("info");
     card1.appendChild(info1);
-    const head1 = document.createElement("h4");
+    const head1 = document.createElement("h3");
     head1.textContent = "Spotted Dick";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
@@ -30,7 +30,7 @@ export const loadDesserts = () => {
     card2.classList.add("card");
     info2.classList.add("info");
     card2.appendChild(info2);
-    const head2 = document.createElement("h4");
+    const head2 = document.createElement("h3");
     head2.textContent = "Treacle Tart";
     info2.appendChild(head2);
     const blurb2 = document.createElement("p");
@@ -43,7 +43,7 @@ export const loadDesserts = () => {
     card3.classList.add("card");
     info3.classList.add("info");
     card3.appendChild(info3);
-    const head3 = document.createElement("h4");
+    const head3 = document.createElement("h3");
     head3.textContent = "Chocolate Pudding";
     info3.appendChild(head3);
     const blurb3 = document.createElement("p");
@@ -56,7 +56,7 @@ export const loadDesserts = () => {
     card4.classList.add("card");
     info4.classList.add("info");
     card4.appendChild(info4);
-    const head4 = document.createElement("h4");
+    const head4 = document.createElement("h3");
     head4.textContent = "Jam Doughnuts";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
