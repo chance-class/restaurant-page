@@ -1,0 +1,7 @@
+.header {
+  height: 75px;
+  display: grid;
+  justify-content: center;
+  align-content: end;
+}
+
