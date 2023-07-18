@@ -26,7 +26,7 @@ export const loadSite = (() => {
   container.classList.add("container");
   content.appendChild(container);
   const main = document.createElement("div");
-  main.classList.add("main");
+  main.classList.add("main-home");
   container.appendChild(main);
   const heading = document.createElement("h1");
   heading.textContent = "The Leaky Cauldron";
