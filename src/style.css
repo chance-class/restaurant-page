@@ -30,6 +30,8 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  height: 60vh;
+  margin-top: 40px;
 }
 
 .blurb {
@@ -38,11 +40,25 @@
 }
 
 button {
+  margin: 0;
   height: 40px;
-  width: 100px;
+  width: 120px;
+  font-size: 1.2rem;
 }
 
 h1,
 h2 {
   text-align: center;
 }
+
+.options {
+  display: grid;
+  gap: 40px;
+  margin: 30px auto;
+}
+
+.menu-btn {
+  width: 200px;
+  height: 55px;
+}
+
