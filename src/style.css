@@ -24,7 +24,6 @@
   width: 700px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .main-home {
@@ -41,4 +40,9 @@
 button {
   height: 40px;
   width: 100px;
+}
+
+h1,
+h2 {
+  text-align: center;
 }
