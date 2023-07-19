@@ -24,14 +24,18 @@
   width: 700px;
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
 }
 
 .main-home {
   text-align: center;
   justify-content: center;
-  align-items: center;
   height: 60vh;
-  margin-top: 40px;
+}
+
+.card {
+  width: 275px;
 }
 
 .blurb {
@@ -60,5 +64,10 @@ h2 {
 .menu-btn {
   width: 200px;
   height: 55px;
+}
+
+.learn {
+  width: 200px;
+  height: 60px;
 }
 
