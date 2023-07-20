@@ -18,7 +18,8 @@ body {
 
 h1 {
   font-family: "HARRYP", sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
+  margin: 10px;
   font-weight: 300;
 }
 
