@@ -119,6 +119,20 @@ button {
   height: 40px;
   width: 120px;
   font-size: 1.2rem;
+  background-color: #155e75;
+  color:#d4d4d8;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #a5f3fc;
+}
+
+a:hover {
+  font-weight: 600;
 }
 
 h1,
