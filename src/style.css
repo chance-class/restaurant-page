@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "HARRYP";
+  src: url(./HARRYP__.TTF);
+}
+
 .header {
   height: 75px;
   display: grid;
@@ -9,6 +14,12 @@ body {
     background-image: url(./images/cauldron.png);
     background-size: cover;
   /*  background-position: center;*/
+}
+
+h1 {
+  font-family: "HARRYP", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .navbar {
