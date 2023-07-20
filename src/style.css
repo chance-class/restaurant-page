@@ -5,6 +5,12 @@
   align-content: end;
 }
 
+body {
+    background-image: url(./images/cauldron.png);
+    background-size: cover;
+  /*  background-position: center;*/
+}
+
 .navbar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -16,24 +22,24 @@
 }
 
 .container {
-  display: grid;
+  display: flex;
   justify-content: center;
   position: relative;
-  height: 88vh;
+  flex-grow: 1;
 }
 
-.container::before {
-  content: "";
-  position: absolute;
-  background-image: url(./images/cauldron.png);
-  background-size: fill;
-  background-position: center;
-  top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
- /* opacity: 0.5;*/
-}
+/*.container::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/cauldron.png);
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    opacity: 0.5;
+  }*/
 
 .main-home, 
 .main {
@@ -44,11 +50,19 @@
   margin: 40px auto;
   align-items: center;
   background: rgba(100, 100, 100, 0.75);
+  padding: 15px;
 }
 
 .main-home {
+  background: transparent;
+  color: white;
   text-align: center;
-  justify-content: center;
+  justify-content: end;
+}
+
+.main > p, 
+.main > div > p {
+  font-size: 1.4rem;
 }
 
 .card {
