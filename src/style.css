@@ -105,7 +105,11 @@ form {
 }
 
 .card {
-  width: 275px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  padding: 15px;
 }
 
 .blurb {
