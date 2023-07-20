@@ -57,4 +57,7 @@ export const loadContact = () => {
   info.appendChild(info2);
   main.appendChild(info);
 
+  const map = document.createElement("div");
+  map.innerHTML = "<img src='../src/images/map.gif' width='650px'>";
+  main.appendChild(map);
 };
