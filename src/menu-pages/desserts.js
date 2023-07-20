@@ -16,6 +16,9 @@ export const loadDesserts = () => {
     const info1 = document.createElement("div");
     card1.classList.add("card");
     info1.classList.add("info");
+    const image1 = document.createElement("div");
+    image1.innerHTML = "<img src='../src/images/spotted.png' height='100px' alt='Picture of spotted dick'>";
+    card1.appendChild(image1);
     card1.appendChild(info1);
     const head1 = document.createElement("h3");
     head1.textContent = "Spotted Dick";
@@ -29,6 +32,9 @@ export const loadDesserts = () => {
     const info2 = document.createElement("div");
     card2.classList.add("card");
     info2.classList.add("info");
+    const image2 = document.createElement("div");
+    image2.innerHTML = "<img src='../src/images/treacle.png' height='100px' alt='Picture of treacle tart'>";
+    card2.appendChild(image2);
     card2.appendChild(info2);
     const head2 = document.createElement("h3");
     head2.textContent = "Treacle Tart";
@@ -42,6 +48,9 @@ export const loadDesserts = () => {
     const info3 = document.createElement("div");
     card3.classList.add("card");
     info3.classList.add("info");
+    const image3 = document.createElement("div");
+    image3.innerHTML = "<img src='../src/images/pudding.png' height='100px' alt='Picture of chocolate pudding'>";
+    card3.appendChild(image3);
     card3.appendChild(info3);
     const head3 = document.createElement("h3");
     head3.textContent = "Chocolate Pudding";
@@ -55,6 +64,9 @@ export const loadDesserts = () => {
     const info4 = document.createElement("div");
     card4.classList.add("card");
     info4.classList.add("info");
+    const image4 = document.createElement("div");
+    image4.innerHTML = "<img src='../src/images/doughnuts.png' height='100px' alt='Picture of jam doughnuts'>";
+    card4.appendChild(image4);
     card4.appendChild(info4);
     const head4 = document.createElement("h3");
     head4.textContent = "Jam Doughnuts";
