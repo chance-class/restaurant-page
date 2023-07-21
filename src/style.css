@@ -22,6 +22,7 @@
 body {
     background-image: url(./images/cauldron.png);
     background-size: cover;
+    background-repeat: no-repeat;
   /*  background-position: center;*/
 }
 
