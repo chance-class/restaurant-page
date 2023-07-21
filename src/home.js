@@ -13,7 +13,7 @@ export const loadHome = () => {
   main.appendChild(heading);
   const blurb = document.createElement("div");
   blurb.classList.add("blurb");
-  blurb.textContent = "First-rate food, drink, and living quarters for the travelling witch or wizard, or simply those heading to Diagon Alley";
+  blurb.textContent = "First-rate food and drink for witches and wizards, especially those heading to Diagon Alley or those looking for a cozy place to dine";
   main.appendChild(blurb);
   const learn = document.createElement("button");
   learn.classList.add("learn");
