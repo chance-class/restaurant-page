@@ -26,6 +26,10 @@ export const loadDishes = () => {
     const blurb1 = document.createElement("p");
     blurb1.textContent = "Three succulent sausage links served with mashed potatoes and gravy.";
     info1.appendChild(blurb1);
+    const price1 = document.createElement("p");
+    price1.textContent = "11S 20K";
+    price1.classList.add("price");
+    info1.appendChild(price1);
     main.appendChild(card1);
 
     const card2 = document.createElement("div");
@@ -42,6 +46,10 @@ export const loadDishes = () => {
     const blurb2 = document.createElement("p");
     blurb2.textContent = "Our flaky pastry crust filled with beef, kidney, onion, carrot, mushroom, and a rich gravy.";
     info2.appendChild(blurb2);
+    const price2 = document.createElement("p");
+    price2.textContent = "13S 12K";
+    price2.classList.add("price");
+    info2.appendChild(price2);
     main.appendChild(card2);
 
     const card3 = document.createElement("div");
@@ -58,6 +66,10 @@ export const loadDishes = () => {
     const blurb3 = document.createElement("p");
     blurb3.textContent = "A house favorite, our pea soup is rich and perfect to accompany another dish, or to enjoy on its own.";
     info3.appendChild(blurb3);
+    const price3 = document.createElement("p");
+    price3.textContent = "9S 8K";
+    price3.classList.add("price");
+    info3.appendChild(price3);
     main.appendChild(card3);
 
     const card4 = document.createElement("div");
@@ -74,6 +86,10 @@ export const loadDishes = () => {
     const blurb4 = document.createElement("p");
     blurb4.textContent = "A delectable pastry topped with roast beef and gravy, and served with grilled seasonal vegetables.";
     info4.appendChild(blurb4);
+    const price4 = document.createElement("p");
+    price4.textContent = "14S";
+    price4.classList.add("price");
+    info4.appendChild(price4);
     main.appendChild(card4);
 
     const card5 = document.createElement("div");
@@ -90,6 +106,10 @@ export const loadDishes = () => {
     const blurb5 = document.createElement("p");
     blurb5.textContent = "Minced lamb, gravy, and vegetables, topped with mashed potatoes. Serves two.";
     info5.appendChild(blurb5);
+    const price5 = document.createElement("p");
+    price5.textContent = "1G";
+    price5.classList.add("price");
+    info5.appendChild(price5);
     main.appendChild(card5);
 
     const card6 = document.createElement("div");
@@ -106,6 +126,10 @@ export const loadDishes = () => {
     const blurb6 = document.createElement("p");
     blurb6.textContent = "Our award-winning Yorkshire pudding with sausages, garnished with onion gravy and parsley.";
     info6.appendChild(blurb6);
+    const price6 = document.createElement("p");
+    price6.textContent = "10S 7K";
+    price6.classList.add("price");
+    info6.appendChild(price6);
     main.appendChild(card6);
 
     const mainmenu = document.createElement("button");
