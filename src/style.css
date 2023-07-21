@@ -100,12 +100,16 @@ h3 {
 
 input {
   width: 300px;
-  height: 30px;
+  height: 35px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 textarea {
   width: 300px;
-  height: 100px;
+  height: 120px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 form {
