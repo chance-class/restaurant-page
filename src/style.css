@@ -112,6 +112,19 @@ form {
   padding: 15px;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.info > p {
+  font-size: 1.2rem;
+}
+
 .blurb {
   font-size: 35px;
   margin-bottom: 20px;
