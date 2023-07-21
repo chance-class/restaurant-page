@@ -94,6 +94,7 @@ export const loadDesserts = () => {
 
     const mainmenu = document.createElement("button");
     mainmenu.textContent = "Main Menu";
+    mainmenu.classList.add("mainmenu");
     mainmenu.addEventListener("click", () => {
       loadMenu();
     })
