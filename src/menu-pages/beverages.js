@@ -24,7 +24,7 @@ export const loadBeverages = () => {
     head1.textContent = "Tea and Crumpets";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
-    blurb1.textContent = "This is a description.";
+    blurb1.textContent = "A pot of tea paired with our crumbly crumpets. Add a shot of Ogden's Old Firewhisky if you're bold!";
     info1.appendChild(blurb1);
     main.appendChild(card1);
 
@@ -40,7 +40,7 @@ export const loadBeverages = () => {
     head2.textContent = "Gillywater";
     info2.appendChild(head2);
     const blurb2 = document.createElement("p");
-    blurb2.textContent = "This is a description.";
+    blurb2.textContent = "A house favorite, garnished with your choice of cucumber, mint, lemon, raspberry, or onion.";
     info2.appendChild(blurb2);
     main.appendChild(card2);
 
@@ -56,7 +56,7 @@ export const loadBeverages = () => {
     head3.textContent = "Butterbeer";
     info3.appendChild(head3);
     const blurb3 = document.createElement("p");
-    blurb3.textContent = "This is a description.";
+    blurb3.textContent = "Guaranteed to warm you up from head to toe.";
     info3.appendChild(blurb3);
     main.appendChild(card3);
 
@@ -72,7 +72,7 @@ export const loadBeverages = () => {
     head4.textContent = "Pumpkin Juice";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
-    blurb4.textContent = "This is a description.";
+    blurb4.textContent = "Creamy and house-made, perfect to accompany any dish or sip on its own.";
     info4.appendChild(blurb4);
     main.appendChild(card4);
 
@@ -88,7 +88,7 @@ export const loadBeverages = () => {
     head5.textContent = "Mead";
     info5.appendChild(head5);
     const blurb5 = document.createElement("p");
-    blurb5.textContent = "This is a description.";
+    blurb5.textContent = "Our age-old recipe goes back to when The Leaky Cauldron was established. Must be 18+.";
     info5.appendChild(blurb5);
     main.appendChild(card5);
 

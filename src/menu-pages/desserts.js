@@ -24,7 +24,7 @@ export const loadDesserts = () => {
     head1.textContent = "Spotted Dick";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
-    blurb1.textContent = "This is a description.";
+    blurb1.textContent = "Cake that contains dried raisins and currants, and is topped with our creamy custard.";
     info1.appendChild(blurb1);
     main.appendChild(card1);
 
@@ -40,7 +40,7 @@ export const loadDesserts = () => {
     head2.textContent = "Treacle Tart";
     info2.appendChild(head2);
     const blurb2 = document.createElement("p");
-    blurb2.textContent = "This is a description.";
+    blurb2.textContent = "Baked until golden crisp, and served with our homemade vanilla ice cream.";
     info2.appendChild(blurb2);
     main.appendChild(card2);
 
@@ -56,7 +56,7 @@ export const loadDesserts = () => {
     head3.textContent = "Chocolate Pudding";
     info3.appendChild(head3);
     const blurb3 = document.createElement("p");
-    blurb3.textContent = "This is a description.";
+    blurb3.textContent = "Made with real milk chocolate and garnished with mint.";
     info3.appendChild(blurb3);
     main.appendChild(card3);
 
@@ -72,7 +72,7 @@ export const loadDesserts = () => {
     head4.textContent = "Jam Doughnuts";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
-    blurb4.textContent = "This is a description.";
+    blurb4.textContent = "A dessert for every occasion - available in plates of 4, 6, or 8.";
     info4.appendChild(blurb4);
     main.appendChild(card4);
 

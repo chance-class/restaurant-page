@@ -24,7 +24,7 @@ export const loadDishes = () => {
     head1.textContent = "Bangers and Mash";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
-    blurb1.textContent = "This is a description.";
+    blurb1.textContent = "Three succulent sausage links served with mashed potatoes and gravy.";
     info1.appendChild(blurb1);
     main.appendChild(card1);
 
@@ -40,7 +40,7 @@ export const loadDishes = () => {
     head2.textContent = "Steak and Kidney Pie";
     info2.appendChild(head2);
     const blurb2 = document.createElement("p");
-    blurb2.textContent = "This is a description.";
+    blurb2.textContent = "Our flaky pastry crust filled with beef, kidney, onion, carrot, mushroom, and a rich gravy.";
     info2.appendChild(blurb2);
     main.appendChild(card2);
 
@@ -56,7 +56,7 @@ export const loadDishes = () => {
     head3.textContent = "Pea Soup";
     info3.appendChild(head3);
     const blurb3 = document.createElement("p");
-    blurb3.textContent = "This is a description.";
+    blurb3.textContent = "A house favorite, our pea soup is rich and perfect to accompany another dish, or to enjoy on its own.";
     info3.appendChild(blurb3);
     main.appendChild(card3);
 
@@ -72,7 +72,7 @@ export const loadDishes = () => {
     head4.textContent = "Yorkshire Pudding";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
-    blurb4.textContent = "This is a description.";
+    blurb4.textContent = "A delectable pastry topped with roast beef and gravy, and served with grilled seasonal vegetables.";
     info4.appendChild(blurb4);
     main.appendChild(card4);
 
@@ -88,7 +88,7 @@ export const loadDishes = () => {
     head5.textContent = "Shepherds Pie";
     info5.appendChild(head5);
     const blurb5 = document.createElement("p");
-    blurb5.textContent = "This is a description.";
+    blurb5.textContent = "Minced lamb, gravy, and vegetables, topped with mashed potatoes. Serves two.";
     info5.appendChild(blurb5);
     main.appendChild(card5);
 
@@ -104,7 +104,7 @@ export const loadDishes = () => {
     head6.textContent = "Toad in the Hole";
     info6.appendChild(head6);
     const blurb6 = document.createElement("p");
-    blurb6.textContent = "This is a description.";
+    blurb6.textContent = "Our award-winning Yorkshire pudding with sausages, garnished with onion gravy and parsley.";
     info6.appendChild(blurb6);
     main.appendChild(card6);
 
