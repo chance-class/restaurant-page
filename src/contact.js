@@ -58,7 +58,7 @@ export const loadContact = () => {
   main.appendChild(info);
 
   const map = document.createElement("div");
-  map.innerHTML = "<img src='../src/images/map.gif' width='650px'>";
+  map.innerHTML = "<img src='../src/images/map.gif' width='500px'>";
   main.appendChild(map);
   const link = document.createElement("div");
   link.innerHTML = "<a href='http://members.madasafish.com/~cj_whitehound/Fanfic/Location_Location/Diagon_Alley.htm'>Image Source</a>";
