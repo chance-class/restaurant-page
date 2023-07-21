@@ -10,7 +10,7 @@ export const loadAbout = () => {
     header.textContent = "About";
     main.appendChild(header);
     const info = document.createElement("div");
-    info.classList.add("info");
+    info.classList.add("info-about");
     main.appendChild(info);
     const p1 = document.createElement("p");
     p1.textContent = "The Leaky Cauldron was built in the 1500s by Daisy Dodderidge. Its true address is number one Diagon Alley, and it is believed to have been built along with the rest of the wizarding street.";
