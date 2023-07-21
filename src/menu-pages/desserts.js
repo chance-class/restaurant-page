@@ -26,6 +26,10 @@ export const loadDesserts = () => {
     const blurb1 = document.createElement("p");
     blurb1.textContent = "Cake that contains dried raisins and currants, and is topped with our creamy custard.";
     info1.appendChild(blurb1);
+    const price1 = document.createElement("p");
+    price1.textContent = "6S 11K";
+    price1.classList.add("price");
+    info1.appendChild(price1);
     main.appendChild(card1);
 
     const card2 = document.createElement("div");
@@ -42,6 +46,10 @@ export const loadDesserts = () => {
     const blurb2 = document.createElement("p");
     blurb2.textContent = "Baked until golden crisp, and served with our homemade vanilla ice cream.";
     info2.appendChild(blurb2);
+    const price2 = document.createElement("p");
+    price2.textContent = "8S";
+    price2.classList.add("price");
+    info2.appendChild(price2);
     main.appendChild(card2);
 
     const card3 = document.createElement("div");
@@ -58,6 +66,10 @@ export const loadDesserts = () => {
     const blurb3 = document.createElement("p");
     blurb3.textContent = "Made with real milk chocolate and garnished with mint.";
     info3.appendChild(blurb3);
+    const price3 = document.createElement("p");
+    price3.textContent = "6S 7K";
+    price3.classList.add("price");
+    info3.appendChild(price3);
     main.appendChild(card3);
 
     const card4 = document.createElement("div");
@@ -74,6 +86,10 @@ export const loadDesserts = () => {
     const blurb4 = document.createElement("p");
     blurb4.textContent = "A dessert for every occasion - available in plates of 4, 6, or 8.";
     info4.appendChild(blurb4);
+    const price4 = document.createElement("p");
+    price4.textContent = "4S 12K+";
+    price4.classList.add("price");
+    info4.appendChild(price4);
     main.appendChild(card4);
 
     const mainmenu = document.createElement("button");
