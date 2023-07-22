@@ -1,4 +1,5 @@
 import { loadMenu } from '../menu.js';
+import bangers from '../images/bangers.png';
 
 export const loadDishes = () => {
     const container = document.querySelector(".container");
@@ -17,7 +18,7 @@ export const loadDishes = () => {
     card1.classList.add("card");
     info1.classList.add("info");
     const image1 = document.createElement("img");
-    image1.setAttribute("src", "../src/images/bangers.png");
+    image1.src = bangers;
     image1.setAttribute("height", "170px");
     image1.setAttribute("alt", "Picture of bangers and mash");
     card1.appendChild(image1);
