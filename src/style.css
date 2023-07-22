@@ -20,10 +20,10 @@
 }
 
 body {
-    background-image: url(./images/cauldron.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-COLOR: rgb(53, 47, 47);
+  background-image: url(./images/cauldron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(53, 47, 47);
 }
 
 h1 {
