@@ -120,7 +120,7 @@ export const loadDishes = () => {
     head5.textContent = "Shepherds Pie";
     info5.appendChild(head5);
     const blurb5 = document.createElement("p");
-    blurb5.textContent = "Minced lamb, gravy, peas and carrots, topped with mashed potatoes. Serves two.";
+    blurb5.textContent = "Minced lamb, gravy, peas and carrots, and topped with mashed potatoes. Serves two.";
     info5.appendChild(blurb5);
     const price5 = document.createElement("p");
     price5.textContent = "1G";
