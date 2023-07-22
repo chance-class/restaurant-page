@@ -12,6 +12,10 @@
   font-family: "Cardo", sans-serif;
 }
 
+.content {
+  height: 100vh;
+}
+
 .header {
   height: 75px;
   display: grid;
