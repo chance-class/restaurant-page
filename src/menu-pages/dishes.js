@@ -24,7 +24,7 @@ export const loadDishes = () => {
     info1.classList.add("info");
     const image1 = document.createElement("img");
     image1.src = bangers;
-    image1.setAttribute("height", "170px");
+    image1.classList.add("menu-img");
     image1.setAttribute("alt", "Picture of bangers and mash");
     card1.appendChild(image1);
     card1.appendChild(info1);
@@ -46,7 +46,7 @@ export const loadDishes = () => {
     info2.classList.add("info");
     const image2 = document.createElement("img");
     image2.src = kidney;
-    image2.setAttribute("height", "170px");
+    image2.classList.add("menu-img");
     image2.setAttribute("alt", "Picture of steak and kidney pie");
     card2.appendChild(image2);
     card2.appendChild(info2);
@@ -68,7 +68,7 @@ export const loadDishes = () => {
     info3.classList.add("info");
     const image3 = document.createElement("img");
     image3.src = pea;
-    image3.setAttribute("height", "170px");
+    image3.classList.add("menu-img");
     image3.setAttribute("alt", "Picture of pea soup");
     card3.appendChild(image3);
     card3.appendChild(info3);
@@ -90,7 +90,7 @@ export const loadDishes = () => {
     info4.classList.add("info");
     const image4 = document.createElement("img");
     image4.src = yorkshire;
-    image4.setAttribute("height", "170px");
+    image4.classList.add("menu-img");
     image4.setAttribute("alt", "Picture of yorkshire pudding");
     card4.appendChild(image4);
     card4.appendChild(info4);
@@ -112,7 +112,7 @@ export const loadDishes = () => {
     info5.classList.add("info");
     const image5 = document.createElement("img");
     image5.src = shepherd;
-    image5.setAttribute("height", "170px");
+    image5.classList.add("menu-img");
     image5.setAttribute("alt", "Picture of shepherds pie");
     card5.appendChild(image5);
     card5.appendChild(info5);
@@ -134,7 +134,7 @@ export const loadDishes = () => {
     info6.classList.add("info");
     const image6 = document.createElement("img");
     image6.src = toad;
-    image6.setAttribute("height", "170px");
+    image6.classList.add("menu-img");
     image6.setAttribute("alt", "Picture of toad in the hole");
     card6.appendChild(image6);
     card6.appendChild(info6);

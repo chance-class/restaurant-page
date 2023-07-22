@@ -22,7 +22,7 @@ export const loadDesserts = () => {
     info1.classList.add("info");
     const image1 = document.createElement("img");
     image1.src = spotted;
-    image1.setAttribute("height", "170px");
+    image1.classList.add("menu-img");
     image1.setAttribute("alt", "Picture of spotted dick");
     card1.appendChild(image1);
     card1.appendChild(info1);
@@ -44,7 +44,7 @@ export const loadDesserts = () => {
     info2.classList.add("info");
     const image2 = document.createElement("img");
     image2.src = treacle;
-    image2.setAttribute("height", "170px");
+    image2.classList.add("menu-img");
     image2.setAttribute("alt", "Picture of treacle tart");
     card2.appendChild(image2);
     card2.appendChild(info2);
@@ -66,7 +66,7 @@ export const loadDesserts = () => {
     info3.classList.add("info");
     const image3 = document.createElement("img");
     image3.src = pudding;
-    image3.setAttribute("height", "170px");
+    image3.classList.add("menu-img");
     image3.setAttribute("alt", "Picture of chocolate pudding");
     card3.appendChild(image3);
     card3.appendChild(info3);
@@ -88,7 +88,7 @@ export const loadDesserts = () => {
     info4.classList.add("info");
     const image4 = document.createElement("img");
     image4.src = doughnuts;
-    image4.setAttribute("height", "170px");
+    image4.classList.add("menu-img");
     image4.setAttribute("alt", "Picture of jam doughnuts");
     card4.appendChild(image4);
     card4.appendChild(info4);
