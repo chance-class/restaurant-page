@@ -97,7 +97,7 @@ export const loadBeverages = () => {
     head4.textContent = "Pumpkin Juice";
     info4.appendChild(head4);
     const blurb4 = document.createElement("p");
-    blurb4.textContent = "Creamy and house-made, perfect to accompany any dish or sip on its own.";
+    blurb4.textContent = "Creamy and refreshing, perfect to accompany any dish or sip on its own.";
     info4.appendChild(blurb4);
     const price4 = document.createElement("p");
     price4.textContent = "3S 4K";
