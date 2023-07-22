@@ -142,7 +142,7 @@ export const loadDishes = () => {
     head6.textContent = "Toad in the Hole";
     info6.appendChild(head6);
     const blurb6 = document.createElement("p");
-    blurb6.textContent = "Our award-winning Yorkshire pudding with sausages, garnished with onion gravy and parsley.";
+    blurb6.textContent = "Our Yorkshire pudding pastry with sausages, garnished with onion gravy and parsley.";
     info6.appendChild(blurb6);
     const price6 = document.createElement("p");
     price6.textContent = "10S 7K";

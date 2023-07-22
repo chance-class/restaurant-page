@@ -77,7 +77,7 @@ export const loadDesserts = () => {
     blurb3.textContent = "Made with real milk chocolate and garnished with mint.";
     info3.appendChild(blurb3);
     const price3 = document.createElement("p");
-    price3.textContent = "6S 7K";
+    price3.textContent = "5S 7K";
     price3.classList.add("price");
     info3.appendChild(price3);
     main.appendChild(card3);

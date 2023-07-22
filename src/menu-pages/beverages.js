@@ -31,7 +31,7 @@ export const loadBeverages = () => {
     head1.textContent = "Tea and Crumpets";
     info1.appendChild(head1);
     const blurb1 = document.createElement("p");
-    blurb1.textContent = "A pot of tea paired with our crumbly crumpets. Add a shot of Ogden's Old Firewhisky if you're bold!";
+    blurb1.textContent = "A pot of tea paired with our fluffy crumpets. Add a shot of Ogden's Old Firewhisky if you're bold!";
     info1.appendChild(blurb1);
     const price1 = document.createElement("p");
     price1.textContent = "2S 5K";
