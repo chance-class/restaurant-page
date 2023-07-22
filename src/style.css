@@ -210,7 +210,7 @@ h2 {
   height: 60px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     body {
         background-image: url(./images/cauldron2.png);
     }
