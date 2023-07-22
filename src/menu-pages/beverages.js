@@ -1,4 +1,9 @@
 import { loadMenu } from '../menu.js';
+import tea from '../images/tea.png';
+import gilly from '../images/gilly.png';
+import butter from '../images/butter.png';
+import pumpkin from '../images/pumpkin.png';
+import mead from '../images/mead.png';
 
 export const loadBeverages = () => {
     const container = document.querySelector(".container");
@@ -17,7 +22,7 @@ export const loadBeverages = () => {
     card1.classList.add("card");
     info1.classList.add("info");
     const image1 = document.createElement("img");
-    image1.setAttribute("src", "../src/images/tea.png");
+    image1.src = tea;
     image1.setAttribute("height", "170px");
     image1.setAttribute("alt", "Picture of tea and crumpets");
     card1.appendChild(image1);
@@ -39,7 +44,7 @@ export const loadBeverages = () => {
     card2.classList.add("card");
     info2.classList.add("info");
     const image2 = document.createElement("img");
-    image2.setAttribute("src", "../src/images/gilly.png");
+    image2.src = gilly;
     image2.setAttribute("height", "170px");
     image2.setAttribute("alt", "Picture of gillywater");
     card2.appendChild(image2);
@@ -61,7 +66,7 @@ export const loadBeverages = () => {
     card3.classList.add("card");
     info3.classList.add("info");
     const image3 = document.createElement("img");
-    image3.setAttribute("src", "../src/images/butter.png");
+    image3.src = butter;
     image3.setAttribute("height", "170px");
     image3.setAttribute("alt", "Picture of butterbeer");
     card3.appendChild(image3);
@@ -83,7 +88,7 @@ export const loadBeverages = () => {
     card4.classList.add("card");
     info4.classList.add("info");
     const image4 = document.createElement("img");
-    image4.setAttribute("src", "../src/images/pumpkin.png");
+    image4.src = pumpkin;
     image4.setAttribute("height", "170px");
     image4.setAttribute("alt", "Picture of pumpkin juice");
     card4.appendChild(image4);
@@ -105,7 +110,7 @@ export const loadBeverages = () => {
     card5.classList.add("card");
     info5.classList.add("info");
     const image5 = document.createElement("img");
-    image5.setAttribute("src", "../src/images/mead.png");
+    image5.src = mead;
     image5.setAttribute("height", "170px");
     image5.setAttribute("alt", "Picture of mead");
     card5.appendChild(image5);

@@ -1,4 +1,8 @@
 import { loadMenu } from '../menu.js';
+import spotted from '../images/spotted.png';
+import treacle from '../images/treacle.png';
+import pudding from '../images/pudding.png';
+import doughnuts from '../images/doughnuts.png';
 
 export const loadDesserts = () => {
     const container = document.querySelector(".container");
@@ -17,7 +21,7 @@ export const loadDesserts = () => {
     card1.classList.add("card");
     info1.classList.add("info");
     const image1 = document.createElement("img");
-    image1.setAttribute("src", "../src/images/spotted.png");
+    image1.src = spotted;
     image1.setAttribute("height", "170px");
     image1.setAttribute("alt", "Picture of spotted dick");
     card1.appendChild(image1);
@@ -39,7 +43,7 @@ export const loadDesserts = () => {
     card2.classList.add("card");
     info2.classList.add("info");
     const image2 = document.createElement("img");
-    image2.setAttribute("src", "../src/images/treacle.png");
+    image2.src = treacle;
     image2.setAttribute("height", "170px");
     image2.setAttribute("alt", "Picture of treacle tart");
     card2.appendChild(image2);
@@ -61,7 +65,7 @@ export const loadDesserts = () => {
     card3.classList.add("card");
     info3.classList.add("info");
     const image3 = document.createElement("img");
-    image3.setAttribute("src", "../src/images/pudding.png");
+    image3.src = pudding;
     image3.setAttribute("height", "170px");
     image3.setAttribute("alt", "Picture of chocolate pudding");
     card3.appendChild(image3);
@@ -83,7 +87,7 @@ export const loadDesserts = () => {
     card4.classList.add("card");
     info4.classList.add("info");
     const image4 = document.createElement("img");
-    image4.setAttribute("src", "../src/images/doughnuts.png");
+    image4.src = doughnuts;
     image4.setAttribute("height", "170px");
     image4.setAttribute("alt", "Picture of jam doughnuts");
     card4.appendChild(image4);
