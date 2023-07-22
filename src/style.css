@@ -166,7 +166,8 @@ button {
   border-radius: 5px;  
 }
 
-button:hover {
+button:hover, 
+button:active {
   box-shadow:
   0.5px 0.5px 2.8px rgba(238, 159, 40, 0.07),
   1.1px 1.1px 6.7px rgba(238, 159, 40, 0.084),
