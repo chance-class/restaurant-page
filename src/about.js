@@ -24,7 +24,10 @@ export const loadAbout = () => {
   const p4 = document.createElement("p");
   p4.textContent = "Many moons later, The Leaky Cauldron remains the ideal spot to catch up with wizarding gossip over a gillywater or relax after a day of shopping with some shepherds pie. We hope you'll join us!";
   info.appendChild(p4);
+  const br = document.createElement("br");
+  info.appendChild(br);
   const footer = document.createElement("p");
-  footer.innerHTML = "Information courtesy of <a href='https://harrypotter.fandom.com/wiki/Leaky_Cauldron/'>The Wiki</a>.";
+  footer.classList.add("footer");
+  footer.innerHTML = "Information courtesy of <a href='https://harrypotter.fandom.com/wiki/Leaky_Cauldron'>The Muggle Wiki</a>.";
   info.appendChild(footer);
 }

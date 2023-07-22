@@ -77,6 +77,10 @@ h1 {
   margin: 15px 0;
 }
 
+.main > div > p.footer {
+  font-size: 1.1rem;
+}
+
 .info {
   color: #a1a1aa;
 }
@@ -242,6 +246,10 @@ h2 {
     .main > p, 
     .main > div > p {
       font-size: 1.6rem;
+    }
+
+    .main > div > p.footer {
+      font-size: 1.3rem;
     }
 
     .info > p {
