@@ -23,6 +23,7 @@ body {
     background-image: url(./images/cauldron.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-COLOR: rgb(53, 47, 47);
 }
 
 h1 {
@@ -167,6 +168,10 @@ button {
   color:#d4d4d8;
   border: none;
   border-radius: 5px;
+}
+
+.mainmenu {
+  width: 150px;
 }
 
 a {
