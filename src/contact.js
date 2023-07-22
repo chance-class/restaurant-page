@@ -1,3 +1,5 @@
+import contactmap from './images/map.gif';
+
 export const loadContact = () => {
   const container = document.querySelector(".container");
   while (container.lastElementChild) {
@@ -57,8 +59,9 @@ export const loadContact = () => {
   info.appendChild(info2);
   main.appendChild(info);
 
-  const map = document.createElement("div");
-  map.innerHTML = "<img src='../src/images/map.gif' width='500px'>";
+  const map = document.createElement("img");
+  map.src = contactmap;
+  map.setAttribute("width", "500px");
   main.appendChild(map);
   const link = document.createElement("div");
   link.innerHTML = "<a href='http://members.madasafish.com/~cj_whitehound/Fanfic/Location_Location/Diagon_Alley.htm'>Image Source</a>";
