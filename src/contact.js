@@ -50,6 +50,7 @@ export const loadContact = () => {
   main.appendChild(form);
 
   const info = document.createElement("div");
+  info.classList.add("contact-info");
   const info1 = document.createElement("p");
   info1.textContent = "Phone: +44 7341 123456";
   info.appendChild(info1);
