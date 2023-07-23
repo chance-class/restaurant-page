@@ -185,8 +185,7 @@ button.nav-btn {
   border-radius: 0;
   width: 110px;
 }
-
-button.nav-btn:hover, 
+ 
 button.nav-btn:active {
   text-shadow: 0 0 5px rgb(238, 159, 40);
 }
