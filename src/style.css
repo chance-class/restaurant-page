@@ -184,11 +184,29 @@ button.nav-btn {
   background-color: transparent;
   border-radius: 0;
   width: 110px;
+  position: relative;
 }
 
 button.nav-btn:hover, 
 button.nav-btn:active {
   text-shadow: 0 0 5px rgb(238, 159, 40);
+}
+
+button.nav-btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  background: rgb(238, 159, 40);
+  left: 0;
+  bottom: 0;
+  transform: scale(0, 1);
+  transition: transform 0.3s ease;
+}
+
+button.nav-btn:hover::after {
+  transform: scale(1, 1);
+
 }
 
 .menu-img {
@@ -243,11 +261,6 @@ h2 {
 
     button.nav-btn {
       width: 135px;
-    }
-
-    button.nav-btn:active, 
-    button.nav-btn:hover {
-      border-bottom: 3px solid rgb(238, 159, 40);
     }
 
     .mainmenu {
