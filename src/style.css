@@ -202,6 +202,11 @@ button.nav-btn::after {
   transition: transform 0.3s ease;
 }
 
+button.contact::after {
+  width: 70%;
+  left: 15%;
+}
+
 button.nav-btn:hover::after {
   transform: scale(1, 1);
 }
