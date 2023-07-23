@@ -3,6 +3,17 @@ export const loadAbout = () => {
   while (container.lastElementChild) {
     container.removeChild(container.lastElementChild);
   }
+
+  const contact = document.querySelector(".contact");
+  const home = document.querySelector(".home");
+  const menu = document.querySelector(".menu");
+  const about = document.querySelector(".about");
+
+  about.classList.add("selected");
+  home.classList.remove("selected");
+  menu.classList.remove("selected");
+  contact.classList.remove("selected");
+
   const main = document.createElement("div");
   main.classList.add("main");
   container.appendChild(main);
