@@ -245,7 +245,8 @@ h2 {
       width: 135px;
     }
 
-    button.nav-btn:active {
+    button.nav-btn:active, 
+    button.nav-btn:hover {
       border-bottom: 3px solid rgb(238, 159, 40);
     }
 
