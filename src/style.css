@@ -198,10 +198,10 @@ button.nav-btn::after {
   left: 0;
   bottom: 0;
   transform: scale(0, 1);
+  transition: transform 0.3s ease;
 }
 
 button.nav-btn:hover::after {
-  transition: transform 0.3s ease;
   transform: scale(1, 1);
 }
 
