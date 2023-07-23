@@ -26,6 +26,9 @@ export const loadSite = (() => {
   contact.classList.add("nav-btn");
   contact.textContent = "Contact";
   navbar.appendChild(contact);
+
+  home.classList.add("selected");
+
   const container = document.createElement("div");
   container.classList.add("container");
   content.appendChild(container);
