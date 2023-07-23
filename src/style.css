@@ -183,13 +183,12 @@ button:not(.nav-btn):active {
 button.nav-btn {
   background-color: transparent;
   border-radius: 0;
-  width: 90px;
+  width: 110px;
 }
 
 button.nav-btn:hover, 
 button.nav-btn:active {
-/*  text-shadow: 0 0 5px rgb(238, 159, 40);  */
-  border-bottom: 3px solid rgb(238, 159, 40);
+  text-shadow: 0 0 5px rgb(238, 159, 40);
 }
 
 .menu-img {
@@ -243,7 +242,11 @@ h2 {
     }
 
     button.nav-btn {
-      width: 110px;
+      width: 135px;
+    }
+
+    button.nav-btn:active {
+      border-bottom: 3px solid rgb(238, 159, 40);
     }
 
     .mainmenu {
