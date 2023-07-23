@@ -183,6 +183,7 @@ button.nav-btn {
   border-radius: 0;
   width: 110px;
   position: relative;
+  text-align: center;
 }
 
 button.nav-btn:hover {
@@ -192,10 +193,10 @@ button.nav-btn:hover {
 button.nav-btn::after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 60%;
   height: 0.175rem;
   background: rgb(238, 159, 40);
-  left: 0;
+  left: 20%;
   bottom: 0;
   transform: scale(0, 1);
   transition: transform 0.3s ease;
