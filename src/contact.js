@@ -28,7 +28,7 @@ export const loadContact = () => {
 
   const form = document.createElement("form");
   form.setAttribute("method", "post");
-  form.setAttribute("action", "submit.php");
+  form.setAttribute("onsubmit", "return false;");
   const br = document.createElement("br");
 
   const name = document.createElement("input");
