@@ -6,8 +6,6 @@ import { loadMenu } from "./menu.js"
 import { loadAbout } from "./about.js";
 import './style.css';
 
-// loadContact();
-
 const contact = document.querySelector(".contact");
 contact.addEventListener("click", () => {
   loadContact();

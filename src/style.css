@@ -37,10 +37,6 @@ body:before {
 }
 
 body {
-/*  background-image: url(./images/cauldron.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat; */
   background-color: rgb(32, 29, 29);
 }
 
